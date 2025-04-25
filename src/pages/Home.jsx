@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import rigoImageUrl from "../assets/img/rigo-baby.jpg";
 import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
+import HorizontalScroll from "../components/HorizontalScroll.jsx";
 
 export const Home = () => {
 
@@ -25,6 +26,9 @@ export const Home = () => {
 
 	return (
 		<div className="text-center mt-5">
+			<HorizontalScroll>
+				
+			</HorizontalScroll>
 			
 		</div>
 	);
